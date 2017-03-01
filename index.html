@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Movie Ticket</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="dog">
+        <div class="movie">
+          <h1>Movie Titles</h1>
+          <div class="form-group" id="movieTitle">
+            <div class="radio">
+              <label>
+                <input type="radio" name="movie" value="metropolis">Metropolis
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="movie" value="harvey">Harvey
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="movie" value="network">Network
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="movie" value="forrestGump">Forrest Gump
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="movie" value="findingNemo">Finding Nemo
+              </label>
+            </div>
+          </div>
+          <div class="form-group" id="movieTimes">
+            <h1>Movie Times</h1>
+            <div class="radio">
+              <label>
+                <input type="radio" name="time" value="1">10:00am
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="time" value="1">11:40am
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="time" value="1">2:05pm
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="time" value="2">4:20pm
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="time" value="2">7:15pm
+              </label>
+            </div>
+          </div>
+          <div class="form-group" id="ticketType">
+            <h1>Ticket Type</h1>
+            <div class="radio">
+              <label>
+                <input type="radio" name="ticket" value="senior">Senior/Child
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="ticket" value="adult">Adult (12-65)
+              </label>
+            </div>
+          </div>
+        </div>
+        <button type="submit" name="btn btn-primary" id=
+        "priceBtn">Price Me!</button>
+      </form>
+      <div id="finalPrice">
+      </div>
+    </div>
+     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+     <script src="js/scripts.js"></script>
+  </body>
+</html>

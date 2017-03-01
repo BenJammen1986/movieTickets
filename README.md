@@ -27,11 +27,10 @@ HTML, CSS, Bootstrap, JavaScript, and jQuery.
 ## Specifications
 |Behavior|Input|Output|
 |--------|-----|------|
-|Program will return movie which user selected|Finding Nemo|Finding Nemo|
 |Program returns movie times when a movie is selected|Finding Nemo|10:10am, 12:20pm, 3:10pm, 5:40pm|
 |Program will return matinee price if movie starts before 4:30pm|4:10pm|$6.50|
-|Program will determine if the movie selected is a 3D movie at the evening price.|Finding Nemo 3D|$12.50|
-|Program will determine if the movie selected is a 3D movie at the day price.|Finding Nemo|$9.50|
+|Program will return 3D pricing if a 3D movies is selected.|Finding Nemo 3D|$12.50|
+|Program will return matinee price if the movie selected is a 3D movie.|Finding Nemo|$9.50|
 |Program will apply discount if there is a Senior discount.|Senior Discount Selected|-$2.00|
 |Program will apply child pricing if there is a child discount|Child Discount Selected|-$2.00|
 |Program will display final movie ticket price based on age, movie, and time of movie start.|Child, Finding Nemo 3D, 2:00pm|$7.50|
